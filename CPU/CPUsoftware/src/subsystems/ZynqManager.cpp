@@ -182,7 +182,7 @@ int ZynqManager::ConnectTelnet() {
   struct timeval tv;
   fd_set fdset;
   
-  cout << "Hi Francesca! Where are the logs?" << std::endl;
+  cout << "Hi Francesca!! Where are the logs?" << std::endl;
   clog << "info: " << logstream::info << "checking connection to IP " << ZYNQ_IP  << std::endl;
 
   /* debug */
